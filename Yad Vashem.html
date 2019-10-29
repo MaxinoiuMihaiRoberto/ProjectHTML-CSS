@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html style="background-color:#101010">
+   <head>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding">
+      <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <title>Atestat</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+         .navbar-fixed {
+         top: 0;
+         z-index: 100;
+         position: fixed;
+         width: 100%;
+         }
+         .carousel-inner > .item > img,
+         .carousel-inner > .item > a > img {
+         width: 50%;
+         margin: auto;
+         }
+         .li{
+         font-size:150%;
+         text-indent:50px;
+         }
+      </style>
+      <script type="text/javascript">
+         $(document).ready(function() {
+             var pos = 0;
+             $('#nav_bar').removeClass('navbar-fixed');
+             $(window).scroll(function() {
+                 pos = $(window).scrollTop();
+                 if (pos > 90) {
+                     $('#nav_bar').addClass('navbar-fixed');
+                 }
+                 if (pos < 91) {
+                     $('#nav_bar').removeClass('navbar-fixed');
+                 }
+             });
+         });
+         
+      </script>
+      <script>
+         $(document).ready(function(){
+             $('[data-toggle="tooltip"]').tooltip();   
+         });
+      </script>
+   <body style="background-color:#101010" >
+      <div class="container" style="background-color:#2e2e1f;color:white" >
+         <div class="row">
+            <nav class="navbar navbar-inverse navbar-fixed">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                     <a class="navbar-brand" href="index.html"> <span class="	glyphicon glyphicon-home ">   </span> Home</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                        <li><a href="Viata lui Adolf Hitler.html">Viata lui Adolf Hitler</a></li>
+                        <li><a href="Germania nazista.html">Germania nazista</a></li>
+                        <li><a href="Antisemitismul.html">Antisemitismul</a></li>
+                        <li><a href="Yad Vashem.html">Yad Vashem </a></li>
+                        <li><a href="Moartea lui Hitler - varianta general acceptată.html">Moartea lui Hitler - varianta general acceptată</a></li>
+                        <li><a href="Galerie foto.html">Galerie foto</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="row">
+            <br> <br> <br> 
+            <div class="col-sm-4">
+               <img src="hitler1.jpg"style=" height:150px; " />
+            </div>
+            <div class="col-sm-8" style="text-indent:50px; font-size:150%;">
+               Yad Vashem (ebraică:יד ושם „monument și nume”) este denumirea Memorialului Victimelor Holocaustului, instituție oficială a Statului Israel, constituită în 1953 la Ierusalim, print-o hotărâre a <span data-toggle="tooltip" style="font-size:130%;"title="Knessetul (כנסת, „adunare în limba ebraică) este Parlamentul unicameral al statului Israel și se află la Ierusalim."><b>Knesset-ului </b></span> 
+               Numele a fost ales după versetul biblic din Isaia 56,5: „Le voi da în casa Mea și înăuntrul zidurilor Mele un nume și un loc mai de preț decât fii și fiice; le voi da un nume veșnic și nepieritor“. (Vulgata de Sf. Ieronim, cca. AD 405: „dabo eis in domo mea et in muris meis locum et nomen melius a filiis et filiabus nomen sempiternum dabo eis quod non peribit”).
+            </div>
+         </div>
+         <br> <br>
+         <div class="row">
+            <div id="photoGallery" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#photoGallery" data-slide-to="0" class="active"></li>
+                  <li data-target="#photoGallery" data-slide-to="1"></li>
+                  <li data-target="#photoGallery" data-slide-to="2"></li>
+                  <li data-target="#photoGallery" data-slide-to="3"></li>
+                  <li data-target="#photoGallery" data-slide-to="4"></li>
+                  <li data-target="#photoGallery" data-slide-to="5"></li>
+                  <li data-target="#photoGallery" data-slide-to="6"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="item active">
+                     <img src="Yad6.jpeg"  />
+                  </div>
+                  <div class="item">
+                     <img src="Yad2.jpeg"  />
+                  </div>
+                  <div class="item">
+                     <img src="Yad4.jpeg"  />
+                  </div>
+                  <div class="item">
+                     <img src="Yad3.jpeg"  />
+                  </div>
+                  <div class="item">
+                     <img src="Yad5.jpeg" />
+                  </div>
+                  <div class="item">
+                     <img src="Yad1.jpeg" />
+                  </div>
+                  <div class="item">
+                     <img src="Yad.jpeg" />
+                  </div>
+               </div>
+               <a class="left carousel-control" href="#photoGallery" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="right carousel-control" href="#photoGallery" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+         <br> <br> <br>
+         <ul>
+            <li>
+               <h2 style="text-indent:50px;"> <b> Yad Vashem </b> cuprinde mai multe secții, între care:</h2>
+            </li>
+            <ul>
+               <li class="li"> <b>Muzeul Victimelor Holocaustului </b> - muzeu istoric cu o arhitectură aparte, unde sunt expuse obiecte, relicve, o galerie de fotografii, etc. rămase de la victimele Holocaustului; </li>
+               <li class="li"> <b>"Fiecare om are un nume" </b>- o cartotecă destinată de a conține datele personale - în măsura în care s-au putut aduna - despre cele aproape 6 milioane de evrei, victime ale Holocaustului, între care un milion și jumătate de copii; </li>
+               <li class="li"> Institutul de Studii și Cercetări ale Holocaustulu;</li>
+               <li class="li"> <b> Biblioteca Holocaustului; </b></li>
+               <li class="li"> <b>Comisia de acordare a titlului, diplomei și medaliei <mark>Drept între popoare.</mark></b> Această comisie este condusă de un judecător de la Tribunalul Suprem al Israelului și are drept sarcină să comemoreze, să onoreze și să publice numele ne-evreilor -(creștini, musulmani, agnostici, atei și de alte confesiuni, convingeri religioase sau apartenențe etnice), care, riscându-și viața, familia și averea, au salvat viața unor evrei în timpul prigoanei fasciste.</li>
+            </ul>
+         </ul>
+         <br> <br>
+         <div class="row" style="font-size:150%;">
+            <mark> Drept între popoare </mark> <br>
+            <div class="col-sm-7" style="font-size:120%; text-indent:50px;">
+               „Drept între popoare” (ebraică : חסיד אומות העולם Hasid Umot HaOlam) este un titlu acordat în viață sau post mortem, de statul israelian prin intermediul institutului Yad Vashem, pe baza unei legi speciale a Knesset-ului (parlamentul israelian), martirilor și eroilor ne-evrei care, în vremea Holocaustului, în condiții vitrege, când purificarea etnică, jaful, crima și oportunismul deveniseră politică de stat, considerate naționalism și răsplătite cu medalii și onoruri - și-au riscat viața, familia și averea pentru a-și păstra omenia și iubirea aproapelui, ajutându-i și salvându-i pe evreii prigoniți.
+            </div>
+            <div class="col-sm-5">
+               <img src="Yad7.jpeg" class="img-thumbnail" style="width:250px; height:350px;" />
+               <div class="thumbcaption"> 
+                  Shelomo Selinger - Monumentul celor Drepți între popoare la Memorialul Yad Vashem, Ierusalim
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="row" style="font-size:150%;">
+            <h2 style="text-align:center;"> Selectarea laureaților </h2>
+            <br> <br>
+            <div class="col-sm-12" style="text-indent:50px;">
+               Propunerile pentru acordarea acestui omagiu sunt primite din toată lumea și analizate de o comisie condusă de un judecător de la „Înaltul Tribunal de Dreptate” (Înalta Curte de Casație israeliană). Cei recunoscuți ca „Drepți între popoare”, primesc - în afară de titlu - o diplomă și o medalie pe care este încrustat numele laureatului, care se mai înscrie și pe „Zidul de onoare” din „Grădina Drepților între popoare”, lângă muzeul Institutului Yad Vashem din Ierusalim. Acest titlu conferă cetățenia de onoare a Statului Israel (inclusiv cazare, pensie, reduceri de taxe - la primărie, la serviciile medicale, etc., pentru cei care vin să locuiască în Israel). Însemnele distincției sunt conferite laureatului sau urmașilor săi, la Ierusalim, sau la Ambasada Israelului din statul respectiv, într-un cadru festiv, în prezența onor reprezentanți oficiali.
+               Până la 1 ianuarie 2007, acest titlu a fost decernat unui număr de 21 758 de laureați.
+               Desigur că au mai fost și alți oameni care ar fi corespuns criteriilor stabilite de comisia de la Yad Vashem de acordare a titlului de „Drept între popoare”. Recunoașterea lor depinde, în bună măsură, de existența mărturiilor pertinente, directe și de perseverența martorilor supraviețuitori de a face demersurile necesare pentru alcătuirea unui dosar convingător. Adesea, cei salvați au murit, sau au fost într-un grad avansat de invaliditate, sau au suferit de sindromul de amnezie post-traumatică (persoane care au suferit mari traume psihice și fizice prelungite în timp intră, ca o reacție de apărare într-o amnezie cronică, totală sau parțială) sau, s-au rezumat la exprimarea recunoștinței față de binefăcători în mod personal și direct, etc. 
+            </div>
+         </div>
+         <br> 
+         <div class="row">
+            <div class="col-sm-6">
+               <img src="DiplomaYad.jpeg" class="img-thumbnail"  style="width:500px; height:500px;"/>
+               <div class="thumbcaption">
+                  <h3>Diploma Drept între popoare acordată D-nei Maria Kotarba, Polonia </h3>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <img src="YadV.jpeg" class="img-thumbnail" style="width:500px; height:500px;"/>
+               <div class="thumbcaption" style="font-size:120%;">
+                  <h3>Numele celor Drepţi între popoare maghiari, încrustate în marmoră în Parcul Wallenberg din Budapesta </h3>
+               </div>
+            </div>
+         </div> <br> <br>
+		 <div class="row" style="font-size:150%;">
+		 <h2 style="text-align:center;"> Lista cetățenilor români distinși cu titlul <b>„Drept între Popoare”</b></h2> <br> <br>
+		 <div class="col-sm-4">
+		 <img src="V5.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+		 <h3> Viorica Agarici (1886-1979), preşedinta filialei locale a Crucii Roşii din Roman în timpul celui de-al doilea război mondial. </h3>
+		 </div>
+		 </div>
+		 
+		 <div class="col-sm-4">
+		 <img src="V.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+		 <h3> Regina Mamă Elena (n. 2 mai 1896 la Atena, prinţesă de Grecia şi Danemarca, d. 28 noiembrie 1982 la Lausanne, Elveţia). Ajutorul trimis de dânsa în 1942 a salvat vieţile a mii de evrei din Transnistria. În 1943 şi la începutul lui 1944, Regina Mamă Elena a ajutat la întoarcerea a mii de evrei care rămăseseră în viaţă, inclusiv a mii de orfani evrei, din Transnistria. În anul 1993 Statul Israel şi Institutul Yad Vashem i-au conferit post-mortem Titlul şi Medalia Dreaptă Între Popoare. </h3>
+		 </div>
+		 </div>
+		 
+		 <div class="col-sm-4">
+		 <img src="V2.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+		 <h3> Constantin Karadja,prinţ, membru de onoare al Academiei Române a fost un diplomat român (între 1931-1941, Consul General al României la Berlin şi între anii 1941-1944, directorul departamentului consular în Ministerul de Externe la Bucureşti) care a salvat de deportare şi exterminare peste 51.000 de persoane din Germania, Franţa, Ungaria şi Grecia acordându-le paşapoarte şi vize româneşti. </h3>
+		 </div>
+		 </div>
+		 
+		 </div> <br> 
+		 <div class="row" style="font-size:150%;">
+		 <div class="col-sm-4">
+		 <img src="V1.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+		 <h3>Áron Márton (1896-1980), episcop romano-catolic de Alba Iulia. În data de 18 mai 1944 a ţinut o predică în Biserica Sf. Mihail din Cluj în care a luat apărarea evreilor. </h3>
+		 </div>
+		 </div>
+		 
+		 <div class="col-sm-4">
+		 <img src="V4.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+    <h3> Avocatul dr. Traian Popovici (n. 17 octombrie 1892, satul Ruşii Mănăstioarei, pe atunci în Ducatul Bucovinei, Austro-Ungaria; d. 4 iunie 1946, satul Colacu, com. Fundu Moldovei, judeţul Suceava) a fost primar al oraşului Cernăuţi în timpul celui de-al Doilea Război Mondial. A salvat de la deportare 20.000 de evrei din Bucovina.</h3>
+		 </div>
+		 </div>
+		  <div class="col-sm-4">
+		 <img src="V3.jpeg" class="img-thumbnail"  />
+		 <div class="thumbcaption" style="font-size:120%;">
+      <h3> Academician profesor Raoul Şorban (n. 4 septembrie 1912 - d. 18 iulie 2006) a fost un critic de artă, pictor, scriitor, eseist şi memorialist român. În mai 1944, Prof. Şorban l-a ajutat pe rabinul dr. Moshe Carmilly-Weinberger, rabinul comunităţii evreieşti neologe din Cluj să fugă la Turda şi de acolo să se întâlnească cu Iuliu Maniu în Bucureşti pentru a căuta căi de salvare. În mărturia sa Dr. Carmilly-Weinberger a povestit despre eforturile depuse de Prof. Şorban pentru găsirea unei soluţii de salvare a evreilor din Transilvania ocupată.</h3>
+        </div>
+		 </div>
+		 </div>
+      </div>
+   </body>
+</html>
+
